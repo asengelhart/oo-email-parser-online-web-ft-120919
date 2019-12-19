@@ -8,7 +8,9 @@ class EmailAddressParser
   def initialize(mail_string)
     @addresses = mail_string.split(/,? /)
   end 
+  
   def parse
     @addresses
   end 
+  
 end 
